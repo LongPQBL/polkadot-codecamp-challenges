@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@polkadot/util": "^14.0.1",
+    "@polkadot/util-crypto": "^14.0.1"
+  }
+}
