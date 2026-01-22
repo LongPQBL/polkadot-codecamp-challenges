@@ -31,7 +31,7 @@ contract BridgeToken is Script {
             symbol,
             amount,
             address(uint160(uint256(recipient))),
-            StateMachine.polkadot(chainId)
+            StateMachine.kusama(chainId)
         );
         vm.stopBroadcast();
     }
